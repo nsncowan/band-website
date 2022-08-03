@@ -4,10 +4,10 @@ img {
 }
 
 .sidebar {
-  text-align: center;
-  width: 30%;
+  margin: auto;
+  width: 25%;
   border: solid black;
-  border-width: 10px;
+  border-width: 5px;
   float: right;
   background-color: rgb(255, 0, 0);
   margin-bottom: 10px;
@@ -16,7 +16,21 @@ img {
   padding: 10px;
   box-sizing: border-box;
 }
-
-li {
-  list-style-position: inside;
+ul {
+  margin-left: 15px;
 }
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(107, 109, 110);
+}
+
+  .images-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
