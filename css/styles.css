@@ -43,3 +43,8 @@ body {
     padding: 20px;
     background-color: azure;
   }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
